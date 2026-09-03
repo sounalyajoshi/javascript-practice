@@ -39,3 +39,10 @@ var cityName="banga_luru";
 var test=cityName.charAt(2);
 console.log(test);
 
+var givenName = "magnoliya"
+console.log(givenName.length);
+
+var stringName = "bangalore";
+console.log(stringName.toUpperCase()+"\n"+stringName.toLowerCase());
+
+

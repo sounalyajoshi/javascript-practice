@@ -23,7 +23,29 @@ var num=20;
 num%=10;
 console.log(num);
 
+var a=20;
+var b=10;
+var output=(a+b);
+console.log(a+b);
 
-var num=10;
-num=num/3;
-console.log(num);
+var a=25;
+var b=4;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+
+
+
+var price=250;
+var quantity =3;
+var totalPrice=(price*quantity);
+console.log(totalPrice);
+
+
+
+
+
+
+
