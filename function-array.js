@@ -24,7 +24,7 @@ addNum();
 
 
 
-//arrays practicing
+    // arrays practicing
 
 
 
@@ -39,3 +39,30 @@ console.log(familyMembers[1]);
 console.log(familyMembers[2][0]);
 console.log(familyMembers[2][1]);
 console.log(familyMembers);
+
+
+var studentsList=["jhon","smith", "ravi","ramya", "sanju"];
+
+// using push method we can the add the another student to studentlist group.
+ 
+studentsList.push("raki");
+console.log(studentsList);
+
+
+studentsList.pop();
+console.log(studentsList);
+
+studentsList.shift();
+console.log(studentsList);
+
+studentsList.unshift("jhon");
+console.log(studentsList);
+
+
+
+
+
+
+
+
+
