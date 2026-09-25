@@ -55,7 +55,10 @@ const nums=[1,2,45,30];
 const newNums=[...nums,40,50];
 console.log(newNums);
 
-// rest oerator=it collects the remaining values
+
+console.log(name);
+
+// rest oerator it collects the remaining values
 
 
 function addNumbers(...number){
@@ -69,11 +72,46 @@ function showNames(...names){
 }
 showNames("jhon","smith");
 
+let listNum=[1,4,8,10];
+listNum.sort((a,b) =>{
+    return a-b;   // a-b represents the ascending
+                // b-a represents the descending in sort method.
+});
+console.log(listNum);
 
+//optional chaining
 
+const student={
+    name:"ravi"
+};
+console.log(student.address?.city);
 
+const user= {
+ empName: "ramu",
+ address: {
+ city: "bangalore",
+ }
+};
+console.log(user.address?.city);
 
+const  person ={
+    name:"ravi",
+    address:{
+        city:"bangalore"
+    }
+};
 
+console.log(person.address?.city);
+console.log(person.contact?.phone);
+
+let family={
+    famName:"rayaru",
+   children:{
+    name:"manu"
+   }
+};
+
+console.log(family.children?.name);
 
 
 
