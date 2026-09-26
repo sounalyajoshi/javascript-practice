@@ -72,3 +72,22 @@ voting
 .catch(function(noteligible){
     console.log(noteligible);
 })
+
+const promises=new Promise((reslove,reject)=>{
+    let success=false;
+    if(success){
+        reslove("data received");
+    }else{
+        reject("error occured");
+    }
+})
+promises
+.then(function(result) {
+console.log("result");
+})
+.catch(function(error){
+    console.log(error);
+})
+.finally(()=>{
+console.log("process completed");
+});
