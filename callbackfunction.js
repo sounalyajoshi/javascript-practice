@@ -46,3 +46,36 @@ function runTask(callback){
 }
 runTask(welcome);
 
+
+function teach(){
+    console.log("teaching js");
+}
+function student(learn){
+    learn();
+    console.log("student learning js");
+}
+student(teach);
+
+function calculate(a,b,callback){
+    let result=a+b;
+    callback(result);
+}
+
+function display(result){
+    console.log(result);
+}
+calculate(2,4,display);
+
+
+
+console.log("start");
+
+setTimeout(function(){
+    console.log("hello");
+
+},2000);
+console.log("end");
+
+
+
+
